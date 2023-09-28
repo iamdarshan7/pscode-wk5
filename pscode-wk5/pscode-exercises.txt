@@ -1,10 +1,18 @@
 // Exercise 1: Calculate the Sum of Two Numbers
 
 (Your pseudocode here)
+1. ask user for inputing two number. let's say a and b are two variables.
+2. add a and b
+3. store the value obtained from step 2 at sum variable.
+4. print the sum variable.
 
 // Exercise 2: Check if a Number is Even or Odd
 
 (Your pseudocode here)
+1. Ask user for inputing a number. let's say a as the input varible.
+2. calcuate a % 2 == 0
+3. if the result of the step 2 is True, Print the input number was even number.
+4. Else print the input number was odd number.
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -15,5 +23,15 @@ c) Find the smallest (minimum) and largest (maximum) of the five entered numbers
 d) Write out the results found from steps b and c with a message describing what they are
 
 (Your pseudocode here)
-
+1. Initialize sum to 0
+2. Initialize min and max to the first number read
+3. Repeat the following 4 times:
+   a. Read a number from the user
+   b. Add the number to the sum
+   c. If the number is smaller than min, update min
+   d. If the number is larger than max, update max
+4. Calculate average as sum divided by 5
+5. Print "The average of the 5 numbers is: " average number
+6. Print "The smallest number is: " min number
+7. Print "The largest number is: " max number
 -- END --
